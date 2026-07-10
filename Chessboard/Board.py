@@ -8,3 +8,5 @@ class Board:
         }
         for (color, piece), pos in Position.STARTING_POSITION.value.items():
             self.pieces[color][piece] = pos
+    def get_legal_moves(self, piece):
+        
